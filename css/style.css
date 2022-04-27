@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+body{
+  background-color: pink;
+  background-image:url("../images/emailclouds.gif");
+  background-size: cover;
+  color:red;
+}
+
+h1,h3{
+  font-family: 'Monofett', cursive;
+  color: white;
+}
+
+ p{
+
+ }
+
+.sidebar {
+  background-color:blue;
+  padding:10px;
+}
