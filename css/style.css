@@ -1,5 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Open+Sans:wdth,wght@75,600&display=swap');
+
+/* font-family: 'Kirang Haerang', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+  color:black;
+}
+
 .collapsing {
     -webkit-transition: none;
     transition: none;
     display: none;
+}
+
+.tiltRmax {
+  transform:rotate(1.2deg);
+}
+
+.tiltLmax {
+  transform:rotate(-1.2deg);
+}
+
+.phot {
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
+}
+
+#headbanner {
+  background-image: url("../images/qnqstripessm.png");
+  background-size: auto 60%;
+  background-repeat: repeat-x;
+  padding: 0em;
+  margin-right: 0em;
+  width: 100%;
+}
+
+#navbar {
+  background-image: url("../images/qnqstripessmvert.png");
+  background-size: 40% auto;
+  background-repeat: repeat-y;
+  padding: 0em;
+  margin-right: 0em;
+}
+
+#tagline {
+  padding:0.25rem;
+  position: absolute;
+  margin-top:1.5%;
+  transform: rotate(1.2deg);
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
+  font-size: 1.5vw;
+}
+
+h1 {
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 3.5vw;
+  line-height: 5vh;
+}
+
+.DLicon {
+  position:absolute;
+}
+
+hr {
+  border-top: 2px solid red;
 }
