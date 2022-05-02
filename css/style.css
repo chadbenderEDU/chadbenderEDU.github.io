@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Open+Sans:wdth,wght@75,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Open+Sans:wdth,wght@75,600;100,400&display=swap');
 
 /* font-family: 'Kirang Haerang', cursive;
 font-family: 'Open Sans', sans-serif; */
 
 body {
   color:black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400 !important;
+  font-stretch: normal;
 }
 
 .collapsing {
@@ -43,28 +46,91 @@ body {
   margin-right: 0em;
 }
 
+#logo{
+  background-image: url("../images/qnqstripessmvert.png");
+  background-size: 46.66666% auto;
+  background-repeat: repeat-y;
+}
+
 #tagline {
-  padding:0.25rem;
+  padding-left:0.25rem;
+  padding-right:0.25rem;
   position: absolute;
-  margin-top:1.5%;
-  transform: rotate(1.2deg);
+  margin-top:1%;
+  transform: rotate(0.8deg);
   font-family: 'Open Sans', sans-serif;
   background-color: white;
   -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
   box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.25);
   font-size: 1.5vw;
+  font-weight:600;
+  font-stretch: extra-condensed;
 }
 
 h1 {
   font-family: 'Kirang Haerang', cursive;
-  font-size: 3.5vw;
-  line-height: 5vh;
+  font-size: 54pt;
+  line-height: 6vh;
 }
 
+h2{
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 36pt;
+  line-height: 3vh;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  font-stretch: extra-condensed;
+  color:white;
+}
+
+.card{
+  font-size:10pt;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  font-stretch: extra-condensed;
+  font-size: 24pt;
+}
+
+.card-header{
+  padding:0.1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  font-stretch: extra-condensed;
+  color:white;
+  background-color:#253B80;
+  font-size: 14pt;
+}
+
+.card,.card-header{
+  border-radius:0px !important;
+}
+
+.funkybtn{
+  background-image:url("../icons/funkybuttonback.png");
+  background-size:cover;
+  padding-top:0.5rem;
+}
+
+
+
 .DLicon {
-  position:absolute;
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+.album {
+  margin-bottom:2rem;
 }
 
 hr {
   border-top: 2px solid red;
+  border-bottom: 1px solid blue;
+  transform:skewY(0.4deg);
 }
