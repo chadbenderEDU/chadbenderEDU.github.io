@@ -31,11 +31,12 @@ body {
 
 #headbanner {
   background-image: url("../images/qnqstripessm.png");
-  background-size: auto 60%;
+  background-size: auto 66%;
   background-repeat: repeat-x;
   padding: 0em;
   margin-right: 0em;
   width: 100%;
+  min-height:80px;
 }
 
 #navbar {
@@ -50,6 +51,12 @@ body {
   background-image: url("../images/qnqstripessmvert.png");
   background-size: 46.66666% auto;
   background-repeat: repeat-y;
+  min-width:120px;
+}
+
+#lillogo{
+  background:none;
+  min-width:120px;
 }
 
 #tagline {
@@ -70,7 +77,7 @@ body {
 h1 {
   font-family: 'Kirang Haerang', cursive;
   font-size: 54pt;
-  line-height: 6vh;
+  line-height: 6.5vh;
 }
 
 h2{
@@ -119,18 +126,74 @@ h5 {
 }
 
 
-
-.DLicon {
-  position: absolute;
-  transform: translateX(-100%);
+#NAVbtn{
+  margin-top:1rem;
+  margin-bottom: 2rem;
 }
 
 .album {
   margin-bottom:2rem;
+  max-width:300px;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+.album img{
+  width:300px;
+  padding-bottom: 0.5rem;
+}
+
+.DLicon {
+  width:32px !important;
+  position:absolute;
+  transform: translateX(-100%);
 }
 
 hr {
   border-top: 2px solid red;
   border-bottom: 1px solid blue;
   transform:skewY(0.4deg);
+  margin-bottom: 1rem;
+}
+
+table.bandinfo{
+  padding:none !important;
+  width:100%;
+  border-collapse: separate;
+  border-spacing: 0rem 0.5rem;
+  table-layout: fixed
+}
+
+table.bandinfo *{
+  border-bottom:none;
+  margin-top:3rem;
+  padding:0rem 0rem 0rem 0.5rem !important;
+
+}
+
+tr{
+  background-color:#ededed;
+  width:100%;
+}
+
+.active{
+  background-color: #D64F4F !important;
+}
+
+
+
+td.infohead{
+  background-color: #253B80;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  font-stretch: extra-condensed;
+  color:white;
+  font-size:12pt;
+  margin-bottom: 100px !important;
+}
+
+.touryes{
+  background-color: #555FE1 !important;
+  margin-left: 0.25rem;
 }
