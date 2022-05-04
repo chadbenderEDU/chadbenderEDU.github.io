@@ -10,11 +10,12 @@ body {
   font-stretch: normal;
 }
 
-.collapsing {
+
+/* .collapsing {
     -webkit-transition: none;
     transition: none;
     display: none;
-}
+} */
 
 .tiltRmax {
   transform:rotate(1.2deg);
@@ -34,13 +35,11 @@ body {
   background-size: auto 66%;
   background-repeat: repeat-x;
   padding: 0em;
-  margin-right: 0em;
-  width: 100%;
+  right:20em;
   min-height:80px;
 }
 
 #donationbox{
-  min-height:80px;
   height:66%;
   margin-bottom:0;
 }
@@ -55,10 +54,11 @@ body {
 
 #logo{
   background-image: url("../images/qnqstripessmvert.png");
-  background-size: 46.66666% auto;
+  background-size: 45.666666% auto;
   background-repeat: repeat-y;
-  min-width:120px;
 }
+
+
 
 #lillogo{
   background:none;
@@ -69,7 +69,7 @@ body {
   padding-left:0.25rem;
   padding-right:0.25rem;
   position: absolute;
-  margin-top:1%;
+  margin-top:1.5%;
   transform: rotate(0.8deg);
   font-family: 'Open Sans', sans-serif;
   background-color: white;
@@ -102,6 +102,7 @@ h3 {
 
 .card{
   font-size:10pt;
+  margin-bottom:2rem;
 }
 
 h5 {
@@ -126,6 +127,7 @@ h5 {
 }
 
 .funkybtn{
+  background-color: none!important;
   background-image:url("../icons/funkybuttonback.png");
   background-size:cover;
   padding-top:0.5rem;
@@ -133,8 +135,12 @@ h5 {
 
 
 #NAVbtn{
-  margin-top:1rem;
-  margin-bottom: 2rem;
+  border:none !important;
+  height:0rem;
+}
+
+#navtab{
+  width:3rem;
 }
 
 .album {
@@ -185,6 +191,17 @@ table.bandinfo *{
   background-color: #D64F4F !important;
 }
 
+#story1{
+  background-image:url("../images/MUR.jpg");
+  background-size:cover;
+  background-position: bottom;
+}
+
+#story2{
+  background-image:url("../images/WVTS.jpg");
+  background-size:cover;
+  background-position: top;
+}
 
 td.infohead{
   background-color: #253B80;
@@ -197,8 +214,27 @@ td.infohead{
   margin-bottom: 100px !important;
 }
 
-
-
 .touryes{
   background-color: #555FE1 !important;
+}
+
+footer{
+  font-size:8pt;
+  color:grey;
+}
+
+.tourdates h5{
+  font-size: 36pt;
+}
+
+
+/* all the small things */
+@media only screen and (max-width: 992px) {
+  #navbar{
+    position:absolute;
+    margin-top:4rem;
+    width:350px;
+    background-image:none;
+    z-index: 20;
+  }
 }
