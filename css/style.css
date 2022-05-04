@@ -227,6 +227,9 @@ footer{
   font-size: 36pt;
 }
 
+.navpage {
+  width:90%;
+}
 
 /* all the small things */
 @media only screen and (max-width: 992px) {
