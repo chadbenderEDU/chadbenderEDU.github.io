@@ -39,6 +39,12 @@ body {
   min-height:80px;
 }
 
+#donationbox{
+  min-height:80px;
+  height:66%;
+  margin-bottom:0;
+}
+
 #navbar {
   background-image: url("../images/qnqstripessmvert.png");
   background-size: 40% auto;
@@ -195,5 +201,4 @@ td.infohead{
 
 .touryes{
   background-color: #555FE1 !important;
-  margin-left: 0.25rem;
 }
