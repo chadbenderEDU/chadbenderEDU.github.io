@@ -66,6 +66,7 @@ nav {
   background-image: url("../images/qnqstripessmvert.png");
   background-size: 45.666666% auto;
   background-repeat: repeat-y;
+  width:22%;
 }
 
 
@@ -73,6 +74,7 @@ nav {
 #lillogo{
   background:none;
   min-width:120px;
+  width:22%;
 }
 
 #tagline {
